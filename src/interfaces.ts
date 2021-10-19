@@ -1,5 +1,12 @@
-interface Expense {
+export interface IExpense {
     id: string,
-    charge: string,
-    amount: number
+    title: string,
+    amount: string
 }
+
+export interface IAlert {
+    show: boolean,
+    type: string,
+    text: string
+}
+
